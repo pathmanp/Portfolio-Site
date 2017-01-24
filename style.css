@@ -1,0 +1,146 @@
+/** styling the navigation items**/
+
+
+.bg-1 { 
+    background-color: #262626;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+
+}
+
+.bg-1 a {
+	padding-right: 25px;
+	padding-left: 25px;
+	color: #666666;
+}
+
+	/* unvisited link */
+.bg-1 a:link {
+    color: #666666;
+}
+
+/* visited link */
+.bg-1 a:visited {
+    color: #666666;
+}
+
+/* mouse over link */
+.bg-1 a:hover {
+    color: #800000;
+}
+
+/* selected link */
+.bg-1 a:active {
+    color: #b30000;
+}
+
+
+/** Home: This Section is for Image background and social media icons **/
+
+.bg-2a {
+
+	background: url("subwaytrain.jpg") no-repeat top center;
+	background-size: cover; /** Scale the background image to be as large as possible **/
+	overflow: hidden;
+
+}
+
+.bg-2b {
+	background-color: rgba(204, 204, 153, 0.9);
+	margin: -20px;	
+  	padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.bg-2b h3 {
+  font-weight: bold;
+  font-size: 50px;
+  color: #fff;
+}
+
+/**About: myself as a front-end developer and my experience**/
+
+.image_skill {
+	width: 100px;
+	padding-bottom: 20px;
+}
+
+
+/**Portfolio: List of portfolios (images and text) that I have completed.**/
+
+.bg-3 h5,h1{ 
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+
+.img-thumb {
+	width: 300px;
+
+}
+
+.bg-3 a:hover {
+	opacity: 0.4;
+	filter: alpha(opacity=20);
+}
+
+
+
+
+
+/** Contact: Contact Information and included social media icons and copyright info **/
+
+.bg-4 {
+	background-color: #262626;
+	color: #ffffff;
+	padding-top: 20px; 
+    padding-bottom: 20px;
+}
+
+.bg-4 img {
+	width: 100px;
+	border-radius: 100px;
+	filter: grayscale(100%);
+}
+
+.p1-contact {
+	color: #666666;
+}
+
+
+/** Decoration for email link**/
+
+	/* unvisited link */
+.p2-email a:link {
+    color: #800000;
+}
+
+/* visited link */
+.p2-email a:visited {
+    color: #800000;
+}
+
+/* mouse over link */
+.p2-email a:hover {
+    color: #b30000;
+}
+
+/* selected link */
+.p2-email a:active {
+    color: #800000;
+}
+
+/** end of email link Decoration **/
+
+.bg-4 li {
+	float: left;
+	list-style: none;
+	padding: 10px;
+}
+
+.copyright {
+	float: right;
+	color: #666666;
+	font-size: 0.8em;
+}
+
+
